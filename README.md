@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="nHLxSjZlEonL-eySxS5El2TzqIeCQ-j4w8mtZnImrpQ" />
 # Secure File Transfer 
 Secure File Transfer in Java using Socket Programming, RSA , AES.
 
@@ -31,4 +32,4 @@ The system consists of a client and a server Java program, and they must be name
 14. If the command is "get filename", it is a request for the server to send the contents of the file of that name. It reads and encrypts the content of that file and sends it to the client. The client decrypts the received content and saves it locally, with the same filename, in the current working folder. The requested file should be from the server's current folder, excluding any .prv files (i.e. what the client would see if they use the ls command). If it is not one of those files, it should notify the client that the file does not exist.
 15. If the command is "bye", it means the client has no further requests. Both sides should end the connection. The client simply quits, whereas the server waits for the next client.
 
-<meta name="google-site-verification" content="nHLxSjZlEonL-eySxS5El2TzqIeCQ-j4w8mtZnImrpQ" />
+
